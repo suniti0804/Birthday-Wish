@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/balloon"
+        android:src="@drawable/cake"
         android:scaleType="centerCrop"/>
 
     <TextView
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="48sp"
         android:fontFamily="cursive"
-        android:textColor="@color/pink"
+        android:textColor="@color/purple_700"
         android:textStyle="bold"
         android:textAlignment="center"
         android:gravity="center_horizontal"
@@ -36,6 +36,23 @@
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/confetti" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/balloon" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/song" />
 
 
 

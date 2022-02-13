@@ -19,7 +19,7 @@ class GreetingActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val name = intent.getStringExtra(NAME_EXTRA)
-        binding.birthdayGreeting.text = String.format("Happy Birthday \n %s !",name)
+        binding.birthdayGreeting.text = String.format("Happy Birthday Dear \n %s !",name)
     }
 
 }
